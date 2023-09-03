@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #360369;
+  font-family: "Montserrat", sans-serif;
+  color: #ffff;
+}
+#main_page {
+  display: flex;
+  margin-top: 250px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#main_heading {
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+}
+#btn {
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 500px;
+  background-color: #ffff;
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+}
+#btn:hover {
+  cursor: pointer;
+}
+#landing_h2 {
+  margin: 50px 0px 0px 40px;
+  font-size: 54px;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  margin-left: 50px;
+  font-size: 36px;
+  font-weight: 100;
+}
+#position {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+.box {
+  margin: 20px;
+  margin-left: 0px;
+  padding: 20px;
+  text-align: center;
+  /* width: 400px; */
+  height: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #270846;
+}
+#google_map {
+  margin: 40px;
+  align-self: center;
+}
+#map {
+  align-self: center;
+  border-radius: 20px;
+  width: 90vw;
+  height: 45vw;
+  background-color: aliceblue;
+}
+#user_data,
+#user_data > p {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  color: #270846;
+  background-color: #ffff;
+  /* align-items: center; */
+  justify-content: space-around;
+  overflow: hidden;
+}
+#user_data > p {
+  margin-top: 20px;
+  font-size: 54px;
+  font-weight: 700;
+}
+.box-1 {
+  margin: 40px;
+  padding: 20px;
+
+  /* width: 400px; */
+  height: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 10px;
+  background: #270846;
+}
+sup {
+  color: #ffff;
+  background: #270846;
+}
+#user_data > div {
+  display: flex;
+  align-items: center;
+  color: #270846;
+  background-color: #ffff;
+}
